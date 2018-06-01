@@ -5,3 +5,6 @@ def reverse_each_word(s)
   return new_array
 end
 
+def reverse_each_word(s)
+  s.split(" ").map {|w| w.reverse}
+end
